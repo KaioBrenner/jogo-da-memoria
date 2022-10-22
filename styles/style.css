@@ -113,9 +113,3 @@ main {
   align-items: center;
   cursor: pointer;
 }
-main{
-  /*filter: brightness(0.1);*/
-}
-body{
-  /*background-color: rgba(0, 0, 0, 0.9);*/
-}

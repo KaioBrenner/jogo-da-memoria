@@ -4,53 +4,53 @@ function setIcons() {
   //Chave das cartas e quantos ícones possuem nas cartas (máximo: 2)
   const techs = [
     {
-      techSrc: "../images/bootstrap.png",
+      techSrc: "/images/bootstrap.png",
       techName: "bootstrap",
       Icons: 0,
     },
     {
-      techSrc: "../images/css.png",
+      techSrc: "/images/css.png",
       techName: "css",
       Icons: 0,
     },
     {
-      techSrc: "../images/electron.png",
+      techSrc: "/images/electron.png",
       techName: "electron",
       Icons: 0,
     },
     {
-      techSrc: "../images/firebase.png",
+      techSrc: "/images/firebase.png",
       techName: "firebase",
       Icons: 0,
     },
     {
-      techSrc: "../images/html.png",
+      techSrc: "/images/html.png",
       techName: "html",
       Icons: 0,
     },
     {
-      techSrc: "../images/javascript.png",
+      techSrc: "/images/javascript.png",
       techName: "javascript",
       Icons: 0,
     },
     {
-      techSrc: "../images/jquery.png",
+      techSrc: "/images/jquery.png",
       techName: "jquery",
       Icons: 0,
     },
     {
-      techSrc: "../images/mongo.png",
+      techSrc: "/images/mongo.png",
       techName: "mongo",
       Icons: 0,
     },
     {
-      techSrc: "../images/node.png",
+      techSrc: "/images/node.png",
       techName: "node",
 
       Icons: 0,
     },
     {
-      techSrc: "../images/react.png",
+      techSrc: "/images/react.png",
       techName: "react",
       Icons: 0,
     },

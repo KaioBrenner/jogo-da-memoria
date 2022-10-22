@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Righteous", sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  width: 556px;
+  height: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/*Animação das cartas*/
+
+.card-container {
+  display: inline-block;
+  width: 124px;
+  height: 124px;
+  perspective: 1000px;
+}
+
+.flipper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+}
+
+/*
+  .card-container:hover .flipper {
+    transform: rotateY(180deg);
+  }
+  */
+
+.front,
+.back {
+  position: absolute;
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.front {
+  background-color: #05c3ff;
+  font-size: 2em;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 13px 11px 20px #0000007d;
+}
+.back {
+  transform: rotateY(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #101c2c;
+}
+.back img {
+  width: 120px;
+  height: 120px;
+}
+
+
+#finalScreen{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  
+
+}
+#content{
+  width: 100%;
+  height: 100vh;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+#finalScreen h1{
+  position: absolute;
+  z-index: 1;
+  font-size: 3em;
+  color: white;
+  margin-bottom: 30px;
+}
+#finalScreen button{
+  position: absolute;
+  margin-top: 135px;
+  z-index: 1;
+  width: 205px;
+  height: 40px;
+  background-color: yellow;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1em;
+  font-weight: 100;
+  padding: 30px 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+main{
+  /*filter: brightness(0.1);*/
+}
+body{
+  /*background-color: rgba(0, 0, 0, 0.9);*/
+}
